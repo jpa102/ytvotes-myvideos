@@ -6,6 +6,43 @@ this repository **holds** *some data* from my youtube channel, mainly the **like
 
 i want to be transparent on how my videos perform, since youtube decided to remove the public dislike counter on all videos which i find extremely stupid
 
+## how to fetch?
+
+assuming you're getting data from `allinone_data.json`, here's the code: (tested in devtools console, it's all messed up because of formatting)
+
+example:
+
+fetch(
+	"https://raw.githubusercontent.com/jpa102/ytvotes-myvideos/main/allinone_data.json"
+	).then((response) => {
+		response.json().then((json) => {
+			if (json) {
+				let { i6 } = json;
+				console.log(i6);
+				ReceivedData = i6;
+			}
+		})
+	}
+);
+
+ReceivedData.id; // let's say you're getting the id stored in receivedData
+
+this will be the result:
+
+```json
+{
+	"id": "g4vUisXDmTg",
+	"videoTitle": "sa: simulating \"Extended Gang Wars\" from PC to Mobile (revised vid)",
+	"viewCount": 38590,
+	"likeCount": 560,
+	"dislikeCount": 19,
+	"favoriteCount": 0,
+	"commentCount": 152
+}
+```
+
+# Questions
+
 ## can't you and me just rely on dislikes provided from [Return Youtube Dislike?](https://returnyoutubedislike.com/)
 
 while it does a **decent job** at displaying the *"probable"* amount of **dislikes** a video has, it's still **mediocre** for me
