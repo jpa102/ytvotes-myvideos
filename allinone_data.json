@@ -1,9 +1,9 @@
 {
 	"jsoninfo": {
 		"responseText": "Welcome to my YouTube Analytics!\nHere, you can view my video statistics like how many dislikes my video has received, or how many views does it have",
-		"version": 1.06,
-		"lastUpdateDate": "Mar 29, 2024",
-		"lastUpdateTime": "16:09:20 UTC+08:00"
+		"version": 1.07,
+		"lastUpdateDate": "Apr 5, 2024",
+		"lastUpdateTime": "20:17:31 UTC+08:00"
 	},
 	"i1": {
 		"id": "MSPu7C6ygoY",
@@ -53,11 +53,11 @@
 	"i6": {
 		"id": "g4vUisXDmTg",
 		"videoTitle": "sa: simulating \"Extended Gang Wars\" from PC to Mobile (revised vid)",
-		"viewCount": 38661,
-		"likeCount": 560,
+		"viewCount": 38775,
+		"likeCount": 562,
 		"dislikeCount": 19,
 		"favoriteCount": 0,
-		"commentCount": 166
+		"commentCount": 168
 	},
 	"i7": {
 		"id": "dg0NHdh5MLc",
@@ -71,16 +71,16 @@
 	"i8": {
 		"id": "YpIAUPqZ4Z4",
 		"videoTitle": "How to set up gang 9 & 10 in GTA San Andreas",
-		"viewCount": 1824,
+		"viewCount": 1868,
 		"likeCount": 38,
 		"dislikeCount": 1,
 		"favoriteCount": 0,
-		"commentCount": 36
+		"commentCount": 40
 	},
 	"i9": {
 		"id": "YpIAUPqZ4Z4",
 		"videoTitle": "follow up video for \"How to set up gang 9 & 10 in GTA San Andreas\" (Low effort editing)",
-		"viewCount": 225,
+		"viewCount": 227,
 		"likeCount": 4,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -98,7 +98,7 @@
 	"i11": {
 		"id": "QnCoPIv1WkE",
 		"videoTitle": "gta sa custom gsf gang weapons",
-		"viewCount": 765,
+		"viewCount": 782,
 		"likeCount": 9,
 		"dislikeCount": 2,
 		"favoriteCount": 0,
@@ -116,7 +116,7 @@
 	"i13": {
 		"id": "i2laiml0hJs",
 		"videoTitle": "5 GSF configured rival gangs positively & negatively speaking to CJ [short video]",
-		"viewCount": 263,
+		"viewCount": 264,
 		"likeCount": 8,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -125,7 +125,7 @@
 	"i13_1": {
 		"id": "ljCfSC0tEtc",
 		"videoTitle": "About my 'personal' channel",
-		"viewCount": 174,
+		"viewCount": 175,
 		"likeCount": 3,
 		"dislikeCount": 1,
 		"favoriteCount": 0,
@@ -145,7 +145,7 @@
 	"i15": {
 		"id": "gKJ-Y7RaTxM",
 		"videoTitle": "gta san andreas: how i did the fake \"extended gang wars:\" late followup",
-		"viewCount": 2943,
+		"viewCount": 2948,
 		"likeCount": 43,
 		"dislikeCount": 3,
 		"favoriteCount": 0,
@@ -163,7 +163,7 @@
 	"i17": {
 		"id": "Olq1RlKV5S0",
 		"videoTitle": "modifying the ps2 version of gta san andreas (v1.03)",
-		"viewCount": 1004,
+		"viewCount": 1020,
 		"likeCount": 11,
 		"dislikeCount": 1,
 		"favoriteCount": 0,
@@ -172,7 +172,7 @@
 	"i18": {
 		"id": "bKWvwiov0rg",
 		"videoTitle": "macrohard losedows 11 (some say that sethc trick doesn't work anymore)",
-		"viewCount": 49,
+		"viewCount": 50,
 		"likeCount": 0,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -190,7 +190,7 @@
 	"i20": {
 		"id": "Mqx3JFaYWbY",
 		"videoTitle": "\"last moments\" of using windows 8.1",
-		"viewCount": 1671,
+		"viewCount": 1672,
 		"likeCount": 37,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -199,7 +199,7 @@
 	"i21": {
 		"id": "ZVbtAdfl2ts",
 		"videoTitle": "GTA Vice City | reVC: viewing archived repository and mission gameplay [ m7 - treacherous swine ]",
-		"viewCount": 1243,
+		"viewCount": 1244,
 		"likeCount": 18,
 		"dislikeCount": 2,
 		"favoriteCount": 0,
@@ -217,16 +217,16 @@
 	"i23": {
 		"id": "SasNPOKAEUs",
 		"videoTitle": "playing gta san andreas on windows xp",
-		"viewCount": 4075,
-		"likeCount": 44,
+		"viewCount": 4217,
+		"likeCount": 45,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
-		"commentCount": 12
+		"commentCount": 14
 	},
 	"i24": {
 		"id": "ZQIpFakgjH8",
 		"videoTitle": "playing gta san andreas on windows vista",
-		"viewCount": 522,
+		"viewCount": 549,
 		"likeCount": 7,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -235,7 +235,7 @@
 	"i25": {
 		"id": "W1DX8z4ucYo",
 		"videoTitle": "playing gta san andreas on windows 7",
-		"viewCount": 248,
+		"viewCount": 256,
 		"likeCount": 4,
 		"dislikeCount": 1,
 		"favoriteCount": 0,
@@ -244,7 +244,7 @@
 	"i26": {
 		"id": "rEQ9agSg5Q8",
 		"videoTitle": "playing gta san andreas on windows 8.1",
-		"viewCount": 294,
+		"viewCount": 297,
 		"likeCount": 5,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -253,7 +253,7 @@
 	"i27": {
 		"id": "VmPlbCORFss",
 		"videoTitle": "playing gta san andreas on windows 10",
-		"viewCount": 185,
+		"viewCount": 189,
 		"likeCount": 3,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -262,7 +262,7 @@
 	"i28": {
 		"id": "HpNNaEzbCwc",
 		"videoTitle": "playing gta san andreas on windows 11",
-		"viewCount": 218,
+		"viewCount": 219,
 		"likeCount": 5,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -289,7 +289,7 @@
 	"i31": {
 		"id": "_0QPcKEUm8U",
 		"videoTitle": "happy birthday to me, i guess...",
-		"viewCount": 68,
+		"viewCount": 69,
 		"likeCount": 5,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -298,7 +298,7 @@
 	"i32": {
 		"id": "VSeLiIkLBHc",
 		"videoTitle": "surviving gta sa gang wars with a 9mm pistol challenge",
-		"viewCount": 82,
+		"viewCount": 117,
 		"likeCount": 2,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
