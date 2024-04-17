@@ -8,10 +8,11 @@ i want to be transparent on how my videos perform, since youtube decided to remo
 
 ## how to fetch?
 
-assuming you're getting data from `allinone_data.json`, here's the code: (tested in devtools console, it's all messed up because of formatting)
+assuming you're getting data from `allinone_data.json`, here's the code:
 
 example:
 
+```
 fetch(
 	"https://raw.githubusercontent.com/jpa102/ytvotes-myvideos/main/allinone_data.json"
 	).then((response) => {
@@ -19,11 +20,12 @@ fetch(
 			if (json) {
 				let { i6 } = json;
 				console.log(i6);
-				ReceivedData = i6;
+				ReceivedData = i6; // variable used for storing the fetched json data
 			}
 		})
 	}
 );
+```
 
 ReceivedData.id; // let's say you're getting the id stored in receivedData
 
