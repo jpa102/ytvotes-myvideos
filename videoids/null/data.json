@@ -1,9 +1,9 @@
 {
 	"id": "No Video ID",
 	"videoTitle": "No Video Title",
-	"viewCount": null,
-	"likeCount": null,
-	"dislikeCount": null,
+	"viewCount": 0,
+	"likeCount": 0,
+	"dislikeCount": "Dislike",
 	"favoriteCount": 0,
-	"commentCount": null
+	"commentCount": 0
 }
