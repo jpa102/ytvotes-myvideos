@@ -57,6 +57,6 @@ just like https://returnyoutubedislikeapi.com, i don't get to update them often.
 
 ## why are json files stored in their own directory?
 
-if you're the type of person to have all things in **one** place, there's this file named "allinone_data.json"
+if you're the type of person to have all things in **one** place, there's this file named `allinone_data.json`
 
-they have their own directories because i use to fetch the json by their video id in the url path, example is https://raw.githubusercontent.com/jpa102/ytvotes-myvideos/main/videoids/g4vUisXDmTg/data.json
+they have their own directories because i use it to fetch the json data by their video id in the url path, example is https://raw.githubusercontent.com/jpa102/ytvotes-myvideos/main/videoids/g4vUisXDmTg/data.json
