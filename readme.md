@@ -8,7 +8,7 @@ i want to be transparent on how my videos perform, since youtube decided to remo
 
 ## how to fetch?
 
-assuming you're getting data from `allinone_data.json`, here's the code:
+assuming you're getting data from `allinone_data.json`, here's the code: *(i only typed this code and pasted from devtools in the browser)*
 
 example:
 
@@ -28,6 +28,8 @@ fetch(
 ```
 
 ReceivedData.id; // let's say you're getting the id stored in receivedData
+
+where `i#` (i6 for example) is the index number
 
 this will be the result:
 
@@ -60,3 +62,7 @@ just like https://returnyoutubedislikeapi.com, i don't get to update them often.
 if you're the type of person to have all things in **one** place, there's this file named `allinone_data.json`
 
 they have their own directories because i use it to fetch the json data by their video id in the url path, example is https://raw.githubusercontent.com/jpa102/ytvotes-myvideos/main/videoids/g4vUisXDmTg/data.json
+
+# side comment
+
+if other *youtubers* have a github account and decided to share their video statistics like i did, i think it would be **great for everyone**
