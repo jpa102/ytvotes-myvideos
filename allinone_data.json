@@ -1,9 +1,9 @@
 {
 	"jsoninfo": {
 		"responseText": "Welcome to my YouTube Analytics!\nHere, you can view my video statistics like how many dislikes my video has received, or how many views does it have",
-		"version": 1.11,
-		"lastUpdateDate": "May 30, 2024",
-		"lastUpdateTime": "02:04:53 UTC+08:00"
+		"version": 1.12,
+		"lastUpdateDate": "Jun 8, 2024",
+		"lastUpdateTime": "16:43:41 UTC+08:00"
 	},
 	"i1": {
 		"id": "MSPu7C6ygoY",
@@ -17,7 +17,7 @@
 	"i2": {
 		"id": "ahPL2QFkChA",
 		"videoTitle": "Windows dualboot having a seizure",
-		"viewCount": 42,
+		"viewCount": 43,
 		"likeCount": 1,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -35,8 +35,8 @@
 	"i4": {
 		"id": "IAXOgSoBHmw",
 		"videoTitle": "I said we charge today",
-		"viewCount": 26,
-		"likeCount": 1,
+		"viewCount": 27,
+		"likeCount": 2,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
 		"commentCount": 0
@@ -53,11 +53,11 @@
 	"i6": {
 		"id": "g4vUisXDmTg",
 		"videoTitle": "sa: simulating \"Extended Gang Wars\" from PC to Mobile (revised vid)",
-		"viewCount": 39637,
-		"likeCount": 568,
+		"viewCount": 39794,
+		"likeCount": 570,
 		"dislikeCount": 19,
 		"favoriteCount": 0,
-		"commentCount": 178
+		"commentCount": 186
 	},
 	"i7": {
 		"id": "dg0NHdh5MLc",
@@ -71,8 +71,8 @@
 	"i8": {
 		"id": "YpIAUPqZ4Z4",
 		"videoTitle": "How to set up gang 9 & 10 in GTA San Andreas",
-		"viewCount": 2148,
-		"likeCount": 38,
+		"viewCount": 2174,
+		"likeCount": 39,
 		"dislikeCount": 1,
 		"favoriteCount": 0,
 		"commentCount": 84
@@ -80,8 +80,8 @@
 	"i9": {
 		"id": "YpIAUPqZ4Z4",
 		"videoTitle": "follow up video for \"How to set up gang 9 & 10 in GTA San Andreas\" (Low effort editing)",
-		"viewCount": 246,
-		"likeCount": 5,
+		"viewCount": 247,
+		"likeCount": 6,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
 		"commentCount": 1
@@ -89,8 +89,8 @@
 	"i10": {
 		"id": "eA2r5rl_CoM",
 		"videoTitle": "Testing mobile version of GTA San Andreas on Remix OS (roughly unplayable, running on laptop)",
-		"viewCount": 153,
-		"likeCount": 7,
+		"viewCount": 154,
+		"likeCount": 8,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
 		"commentCount": 0
@@ -98,8 +98,8 @@
 	"i11": {
 		"id": "QnCoPIv1WkE",
 		"videoTitle": "gta sa custom gsf gang weapons",
-		"viewCount": 853,
-		"likeCount": 9,
+		"viewCount": 865,
+		"likeCount": 10,
 		"dislikeCount": 2,
 		"favoriteCount": 0,
 		"commentCount": 66
@@ -116,7 +116,7 @@
 	"i13": {
 		"id": "i2laiml0hJs",
 		"videoTitle": "5 GSF configured rival gangs positively & negatively speaking to CJ [short video]",
-		"viewCount": 274,
+		"viewCount": 275,
 		"likeCount": 8,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -136,8 +136,8 @@
 	"i14": {
 		"id": "xvAHmhhIkFU",
 		"videoTitle": "GTA San Andreas - How to put a PC car mod to the mobile platform",
-		"viewCount": 82,
-		"likeCount": 1,
+		"viewCount": 83,
+		"likeCount": 2,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
 		"commentCount": 2
@@ -145,7 +145,7 @@
 	"i15": {
 		"id": "gKJ-Y7RaTxM",
 		"videoTitle": "gta san andreas: how i did the fake \"extended gang wars:\" late followup",
-		"viewCount": 3013,
+		"viewCount": 3020,
 		"likeCount": 43,
 		"dislikeCount": 3,
 		"favoriteCount": 0,
@@ -154,7 +154,7 @@
 	"i16": {
 		"id": "vnHOvfEW4sQ",
 		"videoTitle": "new mobile phone test",
-		"viewCount": 898,
+		"viewCount": 900,
 		"likeCount": 18,
 		"dislikeCount": 3,
 		"favoriteCount": 0,
@@ -163,7 +163,7 @@
 	"i17": {
 		"id": "Olq1RlKV5S0",
 		"videoTitle": "modifying the ps2 version of gta san andreas (v1.03)",
-		"viewCount": 1173,
+		"viewCount": 1206,
 		"likeCount": 15,
 		"dislikeCount": 1,
 		"favoriteCount": 0,
@@ -172,7 +172,7 @@
 	"i18": {
 		"id": "bKWvwiov0rg",
 		"videoTitle": "macrohard losedows 11 (some say that sethc trick doesn't work anymore)",
-		"viewCount": 53,
+		"viewCount": 54,
 		"likeCount": 0,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -190,7 +190,7 @@
 	"i20": {
 		"id": "Mqx3JFaYWbY",
 		"videoTitle": "\"last moments\" of using windows 8.1",
-		"viewCount": 1676,
+		"viewCount": 1677,
 		"likeCount": 39,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -199,7 +199,7 @@
 	"i21": {
 		"id": "ZVbtAdfl2ts",
 		"videoTitle": "GTA Vice City | reVC: viewing archived repository and mission gameplay [ m7 - treacherous swine ]",
-		"viewCount": 1294,
+		"viewCount": 1300,
 		"likeCount": 19,
 		"dislikeCount": 1,
 		"favoriteCount": 0,
@@ -217,8 +217,8 @@
 	"i23": {
 		"id": "SasNPOKAEUs",
 		"videoTitle": "playing gta san andreas on windows xp",
-		"viewCount": 5246,
-		"likeCount": 60,
+		"viewCount": 5419,
+		"likeCount": 61,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
 		"commentCount": 14
@@ -226,7 +226,7 @@
 	"i24": {
 		"id": "ZQIpFakgjH8",
 		"videoTitle": "playing gta san andreas on windows vista",
-		"viewCount": 653,
+		"viewCount": 679,
 		"likeCount": 8,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -235,7 +235,7 @@
 	"i25": {
 		"id": "W1DX8z4ucYo",
 		"videoTitle": "playing gta san andreas on windows 7",
-		"viewCount": 348,
+		"viewCount": 372,
 		"likeCount": 5,
 		"dislikeCount": 1,
 		"favoriteCount": 0,
@@ -244,7 +244,7 @@
 	"i26": {
 		"id": "rEQ9agSg5Q8",
 		"videoTitle": "playing gta san andreas on windows 8.1",
-		"viewCount": 342,
+		"viewCount": 349,
 		"likeCount": 7,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -253,16 +253,16 @@
 	"i27": {
 		"id": "VmPlbCORFss",
 		"videoTitle": "playing gta san andreas on windows 10",
-		"viewCount": 212,
+		"viewCount": 223,
 		"likeCount": 3,
-		"dislikeCount": 0,
+		"dislikeCount": 1,
 		"favoriteCount": 0,
 		"commentCount": 0
 	},
 	"i28": {
 		"id": "HpNNaEzbCwc",
 		"videoTitle": "playing gta san andreas on windows 11",
-		"viewCount": 245,
+		"viewCount": 254,
 		"likeCount": 5,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -289,7 +289,7 @@
 	"i31": {
 		"id": "_0QPcKEUm8U",
 		"videoTitle": "happy birthday to me, i guess...",
-		"viewCount": 75,
+		"viewCount": 78,
 		"likeCount": 5,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
@@ -298,7 +298,7 @@
 	"i32": {
 		"id": "VSeLiIkLBHc",
 		"videoTitle": "surviving gta sa gang wars with a 9mm pistol challenge",
-		"viewCount": 330,
+		"viewCount": 339,
 		"likeCount": 2,
 		"dislikeCount": 0,
 		"favoriteCount": 0,
