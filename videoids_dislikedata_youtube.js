@@ -1,4 +1,4 @@
-﻿// title: author's dislike count fetcher
+// title: author's dislike count fetcher
 // description: allows you to see the dislike counts provided by the creator of the video
 // creator: John Patrick Adem
 
@@ -37,6 +37,14 @@ function getVideoId() {
 			return pathname.slice(8);
 		}
 		return urlObject.searchParams.get("v");
+	}
+}
+
+function checkForUserAvatarButton() {
+	if (document.querySelector("#avatar-btn")) {
+		isSignedOut = true;
+	} else {
+		isSignedOut = false;
 	}
 }
 
@@ -90,9 +98,9 @@ function addRatioBar() {
 						<div id="like-bar" class="like-dislike-info-renderer" style="width: ${roundedlikepercent}%"></div>
 					</div>
 					<tp-yt-paper-tooltip position="top" class="style-scope ytd-sentiment-bar-renderer" role="tooltip" tabindex="-1">
-						${ReceivedLikes} / ${ReceivedDislikes} &nbsp;&nbsp;- &nbsp; ${roundedlikepercent}%
+						${likes} / ${dislikes} &nbsp;&nbsp;-&nbsp; ${roundedlikepercent}%
 						<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip" style-target="tooltip">
-							${ReceivedLikes} / ${ReceivedDislikes} &nbsp;&nbsp;- &nbsp; ${roundedlikepercent}%
+							${likes} / ${dislikes} &nbsp;&nbsp;-&nbsp; ${roundedlikepercent}%
 						</div>
 					</tp-yt-paper-tooltip>
 				</ratio-bar-renderer>
@@ -107,8 +115,8 @@ function addRatioBar() {
 				<style id="ratio-bar-from-javascript">
 					#sentiment.like-dislike-info-renderer {
 						position: absolute;
-						margin-top: 38px;
-						padding-top: 6px;
+						margin-top: 36px;
+						padding-top: 8px;
 						padding-bottom: 14px;
 					}
 					
@@ -142,9 +150,9 @@ function addRatioBar() {
 						<div id="like-bar" class="like-dislike-info-renderer" style="width: ${roundedlikepercent}%"></div>
 					</div>
 					<tp-yt-paper-tooltip position="top" class="style-scope ytd-sentiment-bar-renderer" role="tooltip" tabindex="-1">
-						${ReceivedLikes} / ${ReceivedDislikes} &nbsp;&nbsp;- &nbsp; ${roundedlikepercent}%
+						${likes} / ${dislikes} &nbsp;&nbsp;-&nbsp; ${roundedlikepercent}%
 						<div id="tooltip" class="hidden style-scope tp-yt-paper-tooltip" style-target="tooltip">
-							${ReceivedLikes} / ${ReceivedDislikes} &nbsp;&nbsp;- &nbsp; ${roundedlikepercent}%
+							${likes} / ${dislikes} &nbsp;&nbsp;-&nbsp; ${roundedlikepercent}%
 						</div>
 					</tp-yt-paper-tooltip>
 				</ratio-bar-renderer>
@@ -160,7 +168,7 @@ function FetchTheVideoDislikeData() {
 	
 	UrlExists(gitfetchurl);
 	
-	if (urldoesexists != 404) {
+	if (urldoesexists == true) {
 		fetch(gitfetchurl).then((response) => {
 			response.json().then((json) => {
 				if (json) {
@@ -184,7 +192,7 @@ function FetchTheVideoDislikeData() {
 		});
 	}
 	
-	if (urldoesexists == 404) {
+	if (urldoesexists == false) {
 		fetch(`https://raw.githubusercontent.com/jpa102/ytvotes-myvideos/main/videoids/null/data.json`).then((response) => {
 			response.json().then((json) => {
 				if (json) {
@@ -193,27 +201,41 @@ function FetchTheVideoDislikeData() {
 					
 					ReceivedLikes = likeCount;
 					ReceivedDislikes = dislikeCount;
-					likes = ReceivedLikes.toLocaleString();
-					dislikes = ReceivedDislikes.toLocaleString();
 					
 					likeCount = likeCount;
 					dislikeCount = dislikeCount;
 					viewCount = viewCount;
 					videoTitle = videoTitle;
 					
-					getAverageRating();
-					getPercentage();
+					likes = likeCount.toLocaleString();
+					dislikes = dislikeCount;
 				}
 			})
 		});
 	}
 }
 
-function IncreaseDislikeCount() {
+function IncreaseLikeCount() {
+	checkForUserAvatarButton();
+	
 	
 }
 
-function DecreaseTheDislikeCount() {
+function DecreaseLikeCount() {
+	checkForUserAvatarButton();
+	
+	
+}
+
+function IncreaseDislikeCount() {
+	checkForUserAvatarButton();
+	
+	
+}
+
+function DecreaseDislikeCount() {
+	checkForUserAvatarButton();
+	
 	
 }
 
@@ -252,12 +274,14 @@ setTimeout(function() {
 	
 	document.querySelector("dislike-button-view-model > toggle-button-view-model > button-view-model > button").classList.remove("yt-spec-button-shape-next--icon-button");
 	document.querySelector("dislike-button-view-model > toggle-button-view-model > button-view-model > button").classList.add("yt-spec-button-shape-next--icon-leading");
-
-	getAverageRating();
-	getPercentage();
-	addDislikeCounts();
-	addRatioBar();
-
+	
+	if (urldoesexists != false) {
+		getAverageRating();
+		getPercentage();
+		addDislikeCounts();
+		addRatioBar();
+	}
+	
 	setInterval(function() {
 		if (document.querySelector("#dislike-count-renderer") == null) {
 			addDislikeCounts();
