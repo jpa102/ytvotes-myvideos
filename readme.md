@@ -13,23 +13,19 @@ assuming you're getting data from `allinone_data.json`, here's the code: *(i onl
 example:
 
 ```
-fetch(
-	"https://raw.githubusercontent.com/jpa102/ytvotes-myvideos/main/allinone_data.json"
-	).then((response) => {
-		response.json().then((json) => {
-			if (json) {
-				let { i6 } = json;
-				console.log(i6);
-				ReceivedData = i6; // variable used for storing the fetched json data
-			}
+fetch("https://raw.githubusercontent.com/jpa102/ytvotes-myvideos/main/allinone_data.json").then((response) => {
+	response.json().then((json) => {
+		if (json) {
+			let { info } = json;
+			ReceivedIndexArrayData = info.ytvotes[indexarray].myvideo;
 		})
 	}
 );
 ```
 
-ReceivedData.id; // let's say you're getting the id stored in receivedData
+ReceivedIndexArrayData.id; // let's say you're getting the id stored in `ReceivedIndexArrayData`
 
-where `i#` (i6 for example) is the index number
+where `indexarray` (0 for example) is the **index** number
 
 this will be the result:
 
@@ -37,11 +33,11 @@ this will be the result:
 {
 	"id": "g4vUisXDmTg",
 	"videoTitle": "sa: simulating \"Extended Gang Wars\" from PC to Mobile (revised vid)",
-	"viewCount": 38590,
-	"likeCount": 560,
+	"viewCount": 42471,
+	"likeCount": 603,
 	"dislikeCount": 19,
 	"favoriteCount": 0,
-	"commentCount": 152
+	"commentCount": 174
 }
 ```
 
