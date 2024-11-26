@@ -1,9 +1,9 @@
 {
 	"jsoninfo": {
 		"responseText": "Welcome to my YouTube Analytics!\nHere, you can view my video statistics like how many dislikes my video has received, or how many views does it have",
-		"version": 1.22,
+		"version": 1.22.03,
 		"lastUpdateDate": "November 27, 2024",
-		"lastUpdateTime": "2:49:51 UTC+08:00"
+		"lastUpdateTime": "2:56:06 UTC+08:00"
 	},
 	"info": {
 		"ytvotes": [
@@ -391,7 +391,7 @@
 					"favoriteCount": 0,
 					"commentCount": 126
 				}
-			}
+			},
 			{
 				"myvideo": {
 					"id": "snUo_ZvasV8",
@@ -402,7 +402,7 @@
 					"favoriteCount": 0,
 					"commentCount": 2
 				}
-			}
+			},
 			{
 				"myvideo": {
 					"id": "giCYYGAaNoo",
@@ -419,14 +419,14 @@
 			{
 				"myvideo": {
 					"id": "fCMGCYrWLTc",
-					"videoTitle": "GTA San Andreas: "Recreating" Extended Gang Wars from PC to Android",
+					"videoTitle": "GTA San Andreas: \"Recreating\" Extended Gang Wars from PC to Android",
 					"viewCount": 641,
 					"likeCount": 9,
 					"dislikeCount": 0,
 					"favoriteCount": 0,
 					"commentCount": 8
 				}
-			}
+			},
 			{
 				"myvideo": {
 					"id": "ljCfSC0tEtc",
